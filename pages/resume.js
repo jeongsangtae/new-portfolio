@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 
-export default function Projects() {
+export default function Resume() {
   return (
     <Layout>
       <Head>
@@ -9,7 +9,7 @@ export default function Projects() {
         <meta name="description" content="노력하는 개발자" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>PROJECT</h1>
+      <h1>RESUME</h1>
     </Layout>
   );
 }

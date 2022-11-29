@@ -1,4 +1,5 @@
 import Animation from "./animation";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -17,10 +18,12 @@ export default function Hero() {
           정상태입니다.
         </p>
         <div className="flex justify-center">
-          <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            프로젝트 보러가기
-          </button>
-          <button className="ml-4 inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+          <Link legacyBehavior href="/projects">
+            <a className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              프로젝트 보러가기
+            </a>
+          </Link>
+          <button className="ml-4 inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-sky-500 rounded text-lg">
             이력서 다운로드
           </button>
         </div>
