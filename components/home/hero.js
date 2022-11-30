@@ -19,13 +19,9 @@ export default function Hero() {
         </p>
         <div className="flex justify-center">
           <Link legacyBehavior href="/projects">
-            <a className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              프로젝트 보러가기
-            </a>
+            <a className="btn-project">프로젝트 보러가기</a>
           </Link>
-          <button className="ml-4 inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-sky-500 rounded text-lg">
-            이력서 다운로드
-          </button>
+          <button className="btn-resume">이력서 다운로드</button>
         </div>
       </div>
     </>
