@@ -29,9 +29,13 @@ yarn-error.log*
 .env*.local
 .env
 
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 이력서 파일
+**/*.pdf
