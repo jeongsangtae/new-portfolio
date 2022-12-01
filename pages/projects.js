@@ -8,18 +8,18 @@ export default function Projects({ projects }) {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
+      <div className="flex flex-col items-center justify-center min-h-screen px-3 mb-10">
         <Head>
           <title>정상태 - 포트폴리오</title>
           <meta name="description" content="노력하는 개발자" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1 className="text-4xl font-bold sm:text-6xl mt-10">
+        <h1 className="text-4xl font-bold sm:text-6xl mt-36">
           TOTAL PROJECT :
           <span className="pl-4 text-blue-500">{projects.results.length}</span>
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 py-10 m-6 gap-8">
+        <div className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">
           {projects.results.map((aProject) => (
             <ProjectItem key={aProject.id} data={aProject} />
           ))}

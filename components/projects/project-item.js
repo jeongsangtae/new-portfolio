@@ -42,7 +42,7 @@ export default function ProjectItem({ data }) {
         src={imgSrc}
         alt="cover image"
         width="100%"
-        height="60%"
+        height="50%"
         layout="responsive"
         objectFit="cover"
         quality={100}
