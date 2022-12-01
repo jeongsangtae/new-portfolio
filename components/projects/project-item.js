@@ -40,8 +40,8 @@ export default function ProjectItem({ data }) {
         className="rounded-t-xl"
         src={imgSrc}
         alt="cover image"
-        width={1}
-        height={1}
+        width="100%"
+        height="60%"
         layout="responsive"
         objectFit="cover"
         quality={100}
