@@ -1,7 +1,11 @@
 import Animation from "./animation";
 import Link from "next/link";
+import { saveAs } from "file-saver";
 
 export default function Hero() {
+  const saveFile = () => {
+    saveAs("정상태 이력서.pdf");
+  };
   return (
     <>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -21,7 +25,10 @@ export default function Hero() {
           <Link legacyBehavior href="/projects">
             <a className="btn-project">프로젝트 보러가기</a>
           </Link>
-          <button className="btn-resume">이력서 다운로드</button>
+
+          <button className="btn-resume" onClick={saveFile}>
+            이력서 다운로드
+          </button>
         </div>
       </div>
     </>
