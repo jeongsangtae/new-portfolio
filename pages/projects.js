@@ -14,7 +14,7 @@ export default function Projects({ projects }) {
           <meta name="description" content="노력하는 개발자" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1 className="text-4xl font-bold sm:text-6xl mt-36">
+        <h1 className="text-4xl font-bold sm:text-6xl mt-44">
           TOTAL PROJECT :
           <span className="pl-4 text-blue-500">{projects.results.length}</span>
         </h1>
