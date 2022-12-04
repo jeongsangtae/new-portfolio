@@ -1,28 +1,18 @@
 import Layout from "../components/layout";
 import Head from "next/head";
+import AboutMe from "./about-me";
 
 export default function Resume() {
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center p-6 m-3">
-        <Head>
-          <title>정상태 - 포트폴리오</title>
-          <meta name="description" content="노력하는 개발자" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
-        <div className="resume">
-          <p className="mt-24">ABOUT ME</p>
-        </div>
-        <div className="h-px w-3/4 bg-slate-600/20"></div>
-
-        <div className="resume">
-          <p className="">CERTIFICATE</p>
-        </div>
-        <div className="h-px w-3/4 bg-slate-600/40"></div>
-
-        <div className="resume">
-          <p className="">SKILL</p>
+      <Head>
+        <title>정상태 - 포트폴리오</title>
+        <meta name="description" content="노력하는 개발자" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <AboutMe />
         </div>
       </div>
     </Layout>
