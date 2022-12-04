@@ -11,23 +11,18 @@ export default function Resume() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="flex items-center w-3/4 my-5 mt-24">
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
-          <p className="text-center ml-5 mr-1">ABOUT</p>
-          <p className="text-center mr-5 ml-1">ME</p>
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
+        <div className="flex items-center font-bold text-2xl justify-center w-3/4 my-5 mt-24">
+          <p className="">ABOUT ME</p>
         </div>
+        <div className="h-px w-3/4 bg-slate-600/20"></div>
 
-        <div className="flex items-center w-3/4 my-5">
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
-          <p className="text-center mx-5">CERTIFICATE</p>
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
+        <div className="flex items-center font-bold justify-center w-3/4 my-5">
+          <p className="">CERTIFICATE</p>
         </div>
+        <div className="h-px w-3/4 bg-slate-600/40"></div>
 
-        <div className="flex items-center w-3/4 my-5">
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
-          <p className="text-center mx-5">SKILL</p>
-          <div className="h-px w-3/4 bg-slate-500 dark:bg-slate-400"></div>
+        <div className="flex items-center justify-center w-3/4 my-5">
+          <p className="">SKILL</p>
         </div>
       </div>
     </Layout>
