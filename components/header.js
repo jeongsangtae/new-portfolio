@@ -25,15 +25,15 @@ export default function Header() {
           </Link>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <Link legacyBehavior href="/">
-              <a className="mr-5 hover:text-gray-900">HOME</a>
+              <a className="mr-5 hover:text-gray-900 font-bold">HOME</a>
             </Link>
 
             <Link legacyBehavior href="/projects">
-              <a className="mr-5 hover:text-gray-900">PROJECT</a>
+              <a className="mr-5 hover:text-gray-900 font-bold">PROJECT</a>
             </Link>
 
             <Link legacyBehavior href="/resume">
-              <a className="mr-5 hover:text-gray-900">RESUME</a>
+              <a className="mr-5 hover:text-gray-900 font-bold">RESUME</a>
             </Link>
           </nav>
           {/* 다크모드 토글 버튼 작업해야함 */}

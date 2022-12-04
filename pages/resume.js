@@ -11,17 +11,17 @@ export default function Resume() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="flex items-center font-bold text-2xl justify-center w-3/4 my-5 mt-24">
-          <p className="">ABOUT ME</p>
+        <div className="resume">
+          <p className="mt-24">ABOUT ME</p>
         </div>
         <div className="h-px w-3/4 bg-slate-600/20"></div>
 
-        <div className="flex items-center font-bold justify-center w-3/4 my-5">
+        <div className="resume">
           <p className="">CERTIFICATE</p>
         </div>
         <div className="h-px w-3/4 bg-slate-600/40"></div>
 
-        <div className="flex items-center justify-center w-3/4 my-5">
+        <div className="resume">
           <p className="">SKILL</p>
         </div>
       </div>
