@@ -5,8 +5,8 @@ export default function ResumeHero() {
   return (
     <>
       <section className="text-gray-600 body-font w-full">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
+        <div className="container px-5 py-20 mx-auto">
+          <div className="flex flex-wrap w-full mb-16">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <div className="sm:text-3xl text-2xl font-medium title-font mb-2 text-center">
                 <Image
@@ -22,33 +22,37 @@ export default function ResumeHero() {
               </div>
             </div>
             <div className="lg:w-1/2 w-full leading-relaxed text-black dark:text-white font-bold">
-              ABOUT ME
-              <br />
-              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-medium mt-5">
-                프론트엔드 개발자를 꿈꾸는 정상태입니다.
+              <div className="text-black dark:text-white text-2xl mb-8">
+                ABOUT ME
+              </div>
+
+              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-medium">
+                안녕하세요. 저는 프론트엔드 개발자가 현재 목표이며, React
               </p>
               <br />
               <div className="lg:w-1/2 w-full leading-relaxed text-black dark:text-white font-bold mt-5">
-                CERTIFICATE
+                <div className="text-black dark:text-white text-2xl mb-8">
+                  CERTIFICATE
+                </div>
               </div>
-              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-medium mt-5">
-                정보처리기사 (2019.10)
+              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-medium">
+                정보처리기사 (2019)
               </p>
             </div>
           </div>
 
-          <div className="h-px w-full bg-gray-600/20 dark:bg-slate-600/50 mb-10"></div>
+          <div className="h-px w-full bg-gray-600/20 dark:bg-slate-600/50"></div>
 
           <div className="text-gray-400 bg-white dark:bg-slate-800 body-font">
-            <div className="container px-5 py-24 mx-auto">
-              <div className="flex flex-col text-center w-full mb-20">
+            <div className="container px-5 mx-auto">
+              <div className="flex flex-col text-center w-full">
                 <h1
-                  className="sm:text-3xl text-2xl font-medium title-font mb-4
+                  className="text-2xl sm:text-5xl font-bold title-font mt-20 mb-4
                 text-black dark:text-white"
                 >
                   SKILL
                 </h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl mt-10 font-bold">
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl mt-10 mb-3 font-bold">
                   FRONT-END
                 </p>
 
@@ -194,7 +198,7 @@ export default function ResumeHero() {
                   </div>
                 </div>
 
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl mt-10 font-bold">
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl mt-10 mb-3 font-bold">
                   BACK-END
                 </p>
 
