@@ -26,8 +26,9 @@ export default function ResumeHero() {
                 ABOUT ME
               </div>
 
-              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-medium">
-                안녕하세요. 저는 프론트엔드 개발자가 현재 목표이며, React
+              <p className="lg:w-3/4 w-full leading-relaxed text-gray-500 font-medium">
+                안녕하세요. 저는 프론트엔드 개발자가 현재 목표이며, React와
+                TypeScript를 활용한 다양한 웹 개발에 도전하고 있습니다.
               </p>
               <br />
               <div className="lg:w-1/2 w-full leading-relaxed text-black dark:text-white font-bold mt-5">
