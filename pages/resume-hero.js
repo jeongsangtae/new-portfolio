@@ -66,7 +66,7 @@ export default function ResumeHero() {
                         quality={100}
                       />
                       <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
                           HTML5
                         </h2>
                       </div>
@@ -86,7 +86,7 @@ export default function ResumeHero() {
                         quality={100}
                       />
                       <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
                           CSS3
                         </h2>
                       </div>
@@ -101,13 +101,93 @@ export default function ResumeHero() {
                         layout="fixed"
                         width="64px"
                         height="64px"
-                        src="/images/css.png"
+                        src="/images/tailwindcss.png"
                         objectFit="cover"
                         quality={100}
                       />
                       <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          Tailwind CSS
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <Image
+                        alt="team"
+                        className=""
+                        layout="fixed"
+                        width="64px"
+                        height="64px"
+                        src="/images/js.png"
+                        objectFit="cover"
+                        quality={100}
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
                           JavaScript
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <Image
+                        alt="team"
+                        className=""
+                        layout="fixed"
+                        width="80px"
+                        height="80px"
+                        src="/images/typescript.png"
+                        objectFit="cover"
+                        quality={100}
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          TypeScript
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <Image
+                        alt="team"
+                        className=""
+                        layout="fixed"
+                        width="72px"
+                        height="72px"
+                        src="/images/react.png"
+                        objectFit="cover"
+                        quality={100}
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          React
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <Image
+                        alt="team"
+                        className=""
+                        layout="fixed"
+                        width="72px"
+                        height="72px"
+                        src="/images/nextjs.png"
+                        objectFit="cover"
+                        quality={100}
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          Next
                         </h2>
                       </div>
                     </div>
@@ -127,13 +207,13 @@ export default function ResumeHero() {
                         layout="fixed"
                         width="64px"
                         height="64px"
-                        src="/images/css.png"
+                        src="/images/python.png"
                         objectFit="cover"
                         quality={100}
                       />
                       <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
-                          CSS3
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          Python
                         </h2>
                       </div>
                     </div>
@@ -147,33 +227,13 @@ export default function ResumeHero() {
                         layout="fixed"
                         width="64px"
                         height="64px"
-                        src="/images/css.png"
+                        src="/images/dj.png"
                         objectFit="cover"
                         quality={100}
                       />
                       <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
-                          CSS3
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
-                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                      <Image
-                        alt="team"
-                        className=""
-                        layout="fixed"
-                        width="64px"
-                        height="64px"
-                        src="/images/css.png"
-                        objectFit="cover"
-                        quality={100}
-                      />
-                      <div className="flex-grow">
-                        <h2 className="text-gray-900 title-font font-medium">
-                          CSS3
+                        <h2 className="text-gray-900 title-font font-medium text-lg">
+                          Django
                         </h2>
                       </div>
                     </div>
