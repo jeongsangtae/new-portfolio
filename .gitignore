@@ -40,3 +40,4 @@ next-env.d.ts
 # 이력서 파일, 이미지 파일
 *.pdf
 *.jpg
+*.png
