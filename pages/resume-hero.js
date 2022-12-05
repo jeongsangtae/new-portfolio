@@ -62,7 +62,7 @@ export default function ResumeHero() {
                       />
                       <div className="flex-grow">
                         <h2 className="text-gray-900 title-font font-medium">
-                          Atticus Finch
+                          HTML5
                         </h2>
                       </div>
                     </div>
@@ -77,7 +77,7 @@ export default function ResumeHero() {
                       />
                       <div className="flex-grow">
                         <h2 className="text-gray-900 title-font font-medium">
-                          Atticus Finch
+                          CSS3
                         </h2>
                       </div>
                     </div>
@@ -87,17 +87,48 @@ export default function ResumeHero() {
                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                       <img
                         alt="team"
-                        className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://dummyimage.com/100x90"
+                        className="w-16 h-16 object-cover object-center flex-shrink-0 mr-4"
+                        src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png"
                       />
                       <div className="flex-grow">
                         <h2 className="text-gray-900 title-font font-medium">
-                          Atticus Finch
+                          JavaScript
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <img
+                        alt="team"
+                        className="w-16 h-16 object-cover object-center flex-shrink-0 mr-4"
+                        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium">
+                          CSS3
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="p-2 lg:w-1/3 md:w-1/2 w-full mt-10">
+                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <img
+                        alt="team"
+                        className="w-16 h-16 object-cover object-center flex-shrink-0 mr-4"
+                        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
+                      />
+                      <div className="flex-grow">
+                        <h2 className="text-gray-900 title-font font-medium">
+                          CSS3
                         </h2>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl mt-10 font-bold">
                   BACK-END
                 </p>
