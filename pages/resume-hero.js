@@ -11,6 +11,7 @@ export default function ResumeHero() {
               <div className="sm:text-3xl text-2xl font-medium title-font mb-2 text-center">
                 <Image
                   className="rounded-full"
+                  alt="cover image"
                   src={증명사진}
                   width="150px"
                   height="150px"
